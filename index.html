@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Permite controlar a viewport (tela) -->
+  <!-- Fornece ao navegador instruções de como controlar as dimensões e a escala da página -->
+  <!-- width=device-width define a largura da página para seguir a largura da tela do dispositivo (que varia dependendo do dispositivo) -->
+  <!-- A parte initial-scale=1.0 define o nível de zoom inicial quando a página é carregada pela primeira vez pelo navegador -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docês da Cris</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!--Cabeçalho da página -->
+  <header>
+    <div id="logo">
+      <img id="logoImg" src="images/logo.png">
+      <h1>Doces da Cris</h1>
+    </div>
+    <div class="menu">
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="precos.html">Tabela de Preços</a>
+      <a href="contato.html">Contato</a>
+    </div>
+  </header>
+
+  <!-- Área principal -->
+  <main>
+    
+    <!-- Coluna esquerda, produtos -->
+    <!-- 1º Card Branco-->
+    <div class="coluna-esquerda">
+      <div class="card">
+        <h1>Bolos</h1>
+        <div class="grid miniGrid">
+          <div class="produto">
+            <p class="tituloProduto">Bolo de Brigadeiro</p>
+            <img src="images/bolo1.jpg">
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Bolo de Abacaxi</p>
+            <img src="images/bolo2.jpg">
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Bolo de Frutas</p>
+            <img src="images/bolo7.jpg">
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Bolo de Ninho com Morango</p>
+            <img src="images/bolo4.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- 2º Card Branco-->
+      <div class="card">
+        <h1>Temos Tambem</h1>
+        <div class="grid">
+          <div class="produto">
+            <p class="tituloProduto">Bolo de Pote</p>
+              <img src="images/bolodpote.jpg">
+            <p class="precoProduto">R$: 8,00</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Fatias de Bolos</p>
+            <img src="images/fatia.jpg">
+            <p class="precoProduto">R$: 5,50</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Kit de Brigadeiros</p>
+            <img src="images/kitdoce.jpg">
+            <p class="precoProduto">R$: 20,00</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Pães Caseiros</p>
+            <img src="images/paocas.jpg">
+            <p class="precoProduto">R$: 9,50</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Kit de Festa</p>
+            <img src="images/kitfesta.jpg">
+            <p class="precoProduto">R$: 100,00</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Salgados Congelados</p>
+            <img src="images/salgados.jpg">
+            <p class="precoProduto">R$: 15,00</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Bolos a Pronta Entrega</p>
+            <img src="images/bolopronto.jpg">
+            <p class="precoProduto">R$: 60,00</p>
+          </div>
+          <div class="produto">
+            <p class="tituloProduto">Biscoitos</p>
+            <img src="images/biscoitos.jpg">
+            <p class="precoProduto">R$: 5,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coluna direita, extras-->
+    <div class="coluna-direita">
+      <div class="card" id="promocaoBanner">
+        <h1 id="promocaoH1">Promoção</h1>
+        <h2 id="promocaoValor">Bolo simples por R$: 20,00!</h2>
+      </div>
+      <div class="card">
+        <h2>Sobre Nós</h2>
+        <div class="sobreItens">
+          <a href="sobre.html">
+          <img class="sobreImg" src="images/dona.jpg">
+          </a>
+        </div>
+        <p class="sobreTexto"> Conheça nossa equipe </p>
+      </div>
+      <div class="card">
+        <h2>Promoções</h2>
+        <div class="promo">
+          <img src="images/bolo8.jpg">
+          <p>Bolo Simples - R$ 20,00</p>
+        </div>
+        <div class="promo">
+          <img src="images/bolodpote.jpg">
+          <p>Bolo de Pote - R$ 8,00</p>
+        </div>
+      </div>
+      <div class="card lastCard">
+        <h2>Redes Sociais</h2>
+        <div class="social">
+          <img src="images/fb.png">
+          <a href ="https://www.instagram.com/docesdacris16/?hl=bg">
+            <img src="images/ig.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Ícone de telefone, para entrega -->
+  <div id="entrega">
+    <a href="tel:(11) 99452-8617">
+      <img src="images/telefone.png">
+      <div id="tel">
+        <p>(11) 99452-8617</p>
+        <p>Caso queira encomendar ligue.</p>
+      </div>
+    </a>
+  </div>
+
+</body>
+
+</html>
